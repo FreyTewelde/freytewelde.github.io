@@ -150,7 +150,7 @@ div.ui-datepicker{
    top:42%;
    z-index:99;
    @include media-query($on-palm){
-   top:26%;
+   top:19%;
    }
   }
   .next {
@@ -161,7 +161,7 @@ div.ui-datepicker{
     left:20px;
   }
   .fa-arrow-left, .fa-arrow-right{
-  color:#000;
+  color:#FFF;
   font-size:30px !important;
   @include media-query($on-palm){
      font-size:20px !important;
@@ -208,8 +208,8 @@ div.ui-datepicker{
   width:1920px;
   height:800px;
   @include media-query($on-palm){
-    width:700px;
-    height:464px;
+    width:381px;
+    height:214px;
     
   }
   }
