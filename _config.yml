@@ -1,12 +1,12 @@
 # Site settings
-title: LeGi
-email: legisoftware@gmail.com
+title: Frey Restaurant
+email: freytewelde23@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Web developer, eCommerce developer, Web application developer, freelancer, website developer, Tigrinya dictionary, Tigrigna dictionary
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://legi.uk/" # the base hostname & protocol for your site
-twitter_username: username
-github_username: kiflay
+twitter_username: freytewelde23@gmail.com
+github_username: kiflfrey restaurant
 
 # Build settings
 markdown: kramdown
