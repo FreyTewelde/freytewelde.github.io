@@ -1,0 +1,30 @@
+---
+layout: default
+comments: true
+---
+<div class="post wrapper">
+   <section class="section section-intro">
+    <div class="section-content" id="postTitle">
+    <div class="large-10 large-centered medium-12">
+        <span class="eyebrow eyebrow-hero">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
+        <h1 class="hero-headline"> {{ page.title}}
+        </h1>
+    </div>
+  </div>
+</section>
+
+  <article class="post-content">
+    
+    {{ content }}
+  
+  </article>
+
+  <div align="center">
+  	<a href="#postTitle">
+  	<i class="fa fa-arrow-circle-up fa-2x"></i>
+  	</a>
+  </div>
+ 
+  {% include comments.html %}
+
+</div>
