@@ -452,6 +452,26 @@ h2{
   padding-top: 16px;
   padding-left: 7px;
 }
+/*CONTACT US Page
+=========================================================== */
+.contact-us-top-section{
+    background-color: #FFC12B;
+    height: 628px;
+    width: 100%;
+}
+.about-us-top-section{
+  background-color: #FFE800;
+  height: 628px;
+  width: 100%;
+}
+.top-header-section{
+  display:flex;
+}
+.desktop-only{
+  @include media-query($on-palm){
+    display:none;
+  }
+}
 
 /*Blog Page
 =========================================================== */
