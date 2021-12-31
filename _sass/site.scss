@@ -472,6 +472,65 @@ h2{
     display:none;
   }
 }
+body {
+  padding : 10px ;
+  
+}
+
+/*FOOD MENU Page
+=========================================================== */
+.menu-item-content{
+  margin-top:  2em;
+}
+.menu-item{
+  display:flex;
+  justify-content:space-between
+}
+.menu-title{
+    font-weight: bold;
+    font-size: 133%;
+    font-family: 'Open Sans',sans-serif !important; 
+}
+
+.menu-item-description{
+  font-style:italic
+}
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+  margin-bottom:50px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+
+
+
+
+
 
 /*Blog Page
 =========================================================== */
