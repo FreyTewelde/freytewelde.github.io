@@ -234,6 +234,39 @@ div.ui-datepicker{
 
 /* Index page styling
 ========================================================= */
+.uber-eats-section{
+  display:flex;
+  justify-content:center;
+  padding:10px;
+}
+.about-us-section-index{
+  display:flex;
+  padding-top:70px;
+  background-color: #BC1823;
+  @include media-query($on-palm){
+    flex-direction: column;
+    padding-top:20px;
+  }
+}
+a.header{
+  margin-top: -8px
+} 
+.section-about-us{
+  width:70%;
+  @include media-query($on-palm){
+    width:100%;
+  }
+}
+.about-us-content h2{
+  padding-bottom:15px;
+  color:#fff;
+}
+.about-us-content{
+  padding:15px 5px;
+  color:#fff;
+}
+
+
 .kt-indexHeader{
   text-align:center;
   text-transform:uppercase;

@@ -9,9 +9,13 @@
       </a>
 
       <div class="trigger">
+        <a target="new" class="btn btn-primary header" href="https://www.order.store/store/frey-restaurant/0Mt2Pr-MVgKbs3o9RbSIZA">
+          Order Food With Uber Eats
+        </a>
       {% for page in site.pages %}
       {% if page.title %}
         {% if page.title != "privacyPolicy" %}
+        
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endif %}
         
