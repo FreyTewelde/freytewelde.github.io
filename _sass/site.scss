@@ -234,6 +234,27 @@ div.ui-datepicker{
 
 /* Index page styling
 ========================================================= */
+.customers-review-section{
+  display:flex;
+  flex-direction:column;
+}
+.customers-review-heading h2{
+  text-align:center;
+  padding:30px 0px;
+}
+.customers-review-inner-content{
+  display:flex;
+  @include media-query($on-palm){
+    flex-direction:column;
+    padding-bottom:10px;
+ }
+}
+.customer-review-section-content{
+  padding-right:10px;
+  @include media-query($on-palm){
+    padding-bottom:10px;
+ }
+}
 .uber-eats-section{
   display:flex;
   justify-content:center;
